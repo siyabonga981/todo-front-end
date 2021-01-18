@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mainBackground {
+  background-image: url("./assets/images/home-bg.jpg");
+  background-size: contain;
+}
+
+.overlay {
+  background: #0037ff7d;
+}
+
+.centeredCard {
+  width: 400px;
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.fullWidth, .mat-card-header-text {
+  width: 100%;
+}
+
+.reusableButtons {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px #0004ff;
+          box-shadow: inset 0 0 5px #0004ff;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+/*# sourceMappingURL=styles.css.map */

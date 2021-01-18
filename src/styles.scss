@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+  background-color: #0a0a0a;}
+
+.mainBackground {
+    background: #f5f3f3;
+}
+
+.alignCenter {
+    text-align: center;
+}
+.fullWidth, .mat-card-header-text {
+    width: 100%;
+}
+
+.reusableButtons {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.body-wrapper{
+  .mat-form-field-appearance-outline .mat-form-field-outline {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    border: 1px solid rgb(168, 168, 168) !important;
+    height: 30px;
+    margin-top: 13px;
+    width: 200px;
+  }
+  
+  .mat-tab-label, .mat-tab-link {
+    color: white !important;
+    font-size: 18px;
+  }
+  
+  
+  .mat-form-field-appearance-outline .mat-form-field-prefix, .mat-form-field-appearance-outline .mat-form-field-suffix {
+    top: 6.5px !important;
+  }
+}
+
+.mat-tab-label-content {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  color: white;
+}
+
+.mat-tab-label, .mat-tab-link {
+  color: white !important;
+  font-size: 17px;
+}
+
+.cardHeight {
+  width: 400px;
+  height: 68vh;
+  overflow-y: hidden;
+}
+
+.noMargin {
+  margin: 0 !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
